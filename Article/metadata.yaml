@@ -1,0 +1,124 @@
+# To be filled by the author(s) at the time of submission
+# -------------------------------------------------------
+
+# Title of the article:
+#  - For a successful replication, it shoudl be prefixed with "[Re]"
+#  - For a failed replication, it should be prefixed with "[¬Re]"
+#  - For other article types, no instruction (but please, not too long)
+title: "[Re] A circuit model of auditory cortex"
+
+# List of authors with name, orcid number, email and affiliation
+# Affiliation "*" means contact author
+authors:
+  - name: Parvathy Neelakandan
+    orcid: 
+    email: 
+    affiliations: 1
+    
+  - name: Christoph Metzner
+    orcid: 0000-0002-5933-2101
+    email: cmetzner@ni.tu-berlin.de
+    affiliations: 1,2,3,4,*      # * is for contact author
+
+# List of affiliations with code (corresponding to author affiliations), name
+# and address. You can also use these affiliations to add text such as "Equal
+# contributions" as name (with no address).
+affiliations:
+  - code:    1
+    name:    Neural Information Processing Group, Technische Universität Berlin
+    address: Berlin, Germany
+    
+  - code:    2
+    name:    Department of Child and Adolescent Psychiatry,   Charité–Universitätsmedizin Berlin
+    address: Berlin, Germany
+    
+  - code:    3
+    name:    Institute for Robotics and Cognitive Systems, Universität zu Lübeck
+    address: Lübeck, Germany
+    
+  - code:    4
+    name:    Biocomputation Research Group, School of Physics, Engineering and Computer Science, University of Hertfordshire
+    address: Hatfield, United Kingdom
+    
+
+
+
+# List of keywords (adding the programming language might be a good idea)
+keywords: auditory processing, neural mass models, subtypes of inhibitory interneurons, Python
+
+# Code URL and DOI (url is mandatory for replication, doi after acceptance)
+# You can get a DOI for your code from Zenodo,
+#   see https://guides.github.com/activities/citable-code/
+code:
+  - url: https://github.com/ChristophMetzner/ReScience_ReplicationParkGeffen
+  - doi: 
+
+# Date URL and DOI (optional if no data)
+data:
+  - url:
+  - doi:
+
+# Information about the original article that has been replicated
+replication:
+ - cite: Park, Y., & Geffen, M. N. (2020). A circuit model of auditory cortex. PLoS Computational Biology, 16(7), e1008016. # Full textual citation
+ - bib:  park2020circuit # Bibtex key (if any) in your bibliography file
+ - url:  https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008016&type=printable # URL to the PDF, try to link to a non-paywall version
+ - doi: https://doi.org/10.1371/journal.pcbi.1008016 # Regular digital object identifier
+
+# Don't forget to surround abstract with double quotes
+abstract: ""
+
+# Bibliography file (yours)
+bibliography: bibliography.bib
+  
+# Type of the article
+# Type can be:
+#  * Editorial
+#  * Letter
+#  * Replication
+type: Editorial
+
+# Scientific domain of the article (e.g. Computational Neuroscience)
+#  (one domain only & try to be not overly specific)
+domain: Computational Neuroscience
+
+# Coding language (main one only if several)
+language: Python
+
+  
+# To be filled by the author(s) after acceptance
+# -----------------------------------------------------------------------------
+
+# For example, the URL of the GitHub issue where review actually occured
+review: 
+  - url: 
+
+contributors:
+  - name:
+    orcid: 
+    role: editor
+  - name:
+    orcid:
+    role: reviewer
+  - name:
+    orcid:
+    role: reviewer
+
+# This information will be provided by the editor
+dates:
+  - received:  November 1, 2018
+  - accepted:
+  - published: 
+
+# This information will be provided by the editor
+article:
+  - number: # Article number will be automatically assigned during publication
+  - doi:    # DOI from Zenodo
+  - url:    # Final PDF URL (Zenodo or rescience website?)
+
+# This information will be provided by the editor
+journal:
+  - name:   "ReScience C"
+  - issn:   2430-3658
+  - volume: 4
+  - issue:  1
